@@ -11,18 +11,11 @@ def main():
     ts = resp["timestamp"]
     ts = datetime.datetime.fromtimestamp(ts)
 
-
-
-
-
-
-
     print(f"""
     CURRENT LOCATION OF THE ISS:
     Timestamp: {ts}
     Lon: {lon}
     Lat: {lat}
-
     """)
 if __name__ == "__main__":
     main()
